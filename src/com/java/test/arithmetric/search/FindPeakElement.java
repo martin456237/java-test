@@ -16,7 +16,7 @@ public class FindPeakElement {
 	  // 降序
 	  if (nums[mid] < nums[mid -1]) {
 		end = mid;
-	  } else if (nums[mid] < nums[mid + 1]) {
+	  } else if (nums[mid] < nums[mid + 1]) { // 升序
 		start = mid;
 	  } else {
 		return mid;
